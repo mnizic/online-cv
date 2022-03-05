@@ -1,0 +1,214 @@
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@600&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Sintony&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Nanum+Myeongjo&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Quicksand&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.firstSection {
+  height: 100%;
+  width: 100%;
+  position: relative;
+  top: 0;
+  left: 0;
+  overflow: hidden;
+  background-color: #16262e;
+}
+
+.ja {
+  color: #dbc2cf;
+  font-size: 2.5vw;
+  margin: 2vw;
+  padding: 0.5rem;
+}
+
+.ja img {
+  float: right;
+  width: 50%;
+  border-radius: 5vw;
+  border: #060029 solid 0.3vw;
+}
+
+.ja h1 {
+  font-family: "Sintony", sans-serif;
+  clear: both;
+  float: right;
+  margin-right: 1.2vw;
+}
+
+.ja h2 {
+  font-family: "Sintony", sans-serif;
+  clear: both;
+  float: right;
+  margin-right: 1.2vw;
+  margin-bottom: 5vw;
+}
+
+.izbornik {
+  list-style-type: none;
+  margin: 2vw 8vw;
+}
+
+ul li {
+  padding: 0.7vw;
+}
+
+ul li a {
+  display: inline-block;
+  width: 25vw;
+  font-family: "Raleway", sans-serif;
+  font-size: 2.5vw;
+  text-align: center;
+  padding: 0.5vw;
+  border-radius: 1vw;
+  color: #dbc2cf;
+  background: #2e4756;
+  text-decoration: none;
+  letter-spacing: 1px;
+}
+ul li a:hover {
+  opacity: 0.75;
+  transform: scale(1.2);
+}
+
+#oMeni {
+  position: relative;
+  overflow: hidden;
+  background-color: #9fa2b2;
+  color: #16262e;
+}
+
+.opis h1 {
+  font-family: "Nanum Myeongjo", serif;
+  font-size: 6vw;
+  text-align: center;
+  margin: 4vw;
+}
+
+.opis p {
+  font-family: "Quicksand", sans-serif;
+  text-indent: 10vw;
+  font-size: 2.5vw;
+  text-align: justify;
+  margin: 10vw 10vw 15vw 10vw;
+}
+
+#obrazovanje {
+  position: relative;
+  overflow: hidden;
+  background-color: #16262e;
+  color: #9fa2b2;
+}
+
+#obrazovanje h1 {
+  font-family: "Nanum Myeongjo", serif;
+  font-size: 6vw;
+  text-align: center;
+  margin: 4vw;
+  margin-bottom: 8vw;
+}
+
+.obrazovanjeClass {
+  float: left;
+  width: 25%;
+  font-family: "Quicksand", sans-serif;
+  text-align: center;
+  margin: 2vw 4vw 8vw 4vw;
+  line-height: 1.6;
+}
+
+.obrazovanjeClass h2 {
+  font-size: 2.3vw;
+}
+
+.obrazovanjeClass h3 {
+  font-style: italic;
+  font-size: 1.5vw;
+}
+
+.obrazovanjeClass img {
+  width: 20vw;
+  height: 20vw;
+  border-radius: 1vw;
+}
+
+#radnoIskustvo {
+  position: relative;
+  overflow: hidden;
+  background-color: #9fa2b2;
+  color: #16262e;
+}
+
+#radnoIskustvo h1 {
+  font-family: "Nanum Myeongjo", serif;
+  font-size: 6vw;
+  text-align: center;
+  margin: 4vw;
+  margin-bottom: 8vw;
+}
+
+.radnoIskustvoClass {
+  float: left;
+  width: 25%;
+  font-family: "Quicksand", sans-serif;
+  text-align: center;
+  margin: 2vw 4vw 8vw 4vw;
+  line-height: 1.6;
+}
+
+.radnoIskustvoClass h2 {
+  font-size: 2.5vw;
+}
+
+.radnoIskustvoClass h3 {
+  font-style: italic;
+  font-size: 1.5vw;
+}
+
+.radnoIskustvoClass img {
+  width: 20vw;
+  height: 20vw;
+
+  border-radius: 1vw;
+  border: 0.01vw solid black;
+}
+
+#znanjaVjestine {
+  position: relative;
+  overflow: hidden;
+  background-color: #16262e;
+  color: #9fa2b2;
+}
+
+#znanjaVjestine h1 {
+  font-family: "Nanum Myeongjo", serif;
+  font-size: 6vw;
+  text-align: center;
+  margin: 4vw;
+  margin-bottom: 8vw;
+}
+
+.znanjaClass {
+  font-family: "Quicksand", sans-serif;
+  float: left;
+  width: 24%;
+  text-align: center;
+  margin: 2vw 4vw 4vw 5vw;
+  font-size: 2.5vw;
+}
+
+.znanjaClass img {
+  width: 20vw;
+  height: 20vw;
+  padding: 0.5vw;
+  border-radius: 1vw;
+  background-color: white;
+}
+
+#js {
+  background-color: gold;
+}
