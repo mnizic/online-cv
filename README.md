@@ -1,1 +1,1 @@
-Jednostavna web stranica izrađena u HTML-u i CSS-u koja sadrži online CV.
+Simple web page of Online CV using only HTML and CSS.
